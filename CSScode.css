@@ -3,18 +3,17 @@ body{
 }
 .text{
     color:white;
-    margin-left:42.5%;
-    margin-top:20%;
-    position: relative;
+    left:42.5%;
+    top:20%;
+    position: fixed;
 }
 .btn{
   background-color:red;
   border: none;
   color: white;
   padding: 30px;
-  position: relative;
+  position: fixed;
   border-radius:50%;
-  align: center;
-  margin-left:48.5%;
-  margin-top:2%;
+  left:48.5%;
+  top:24%;
 }
