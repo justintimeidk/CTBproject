@@ -5,14 +5,14 @@ body{
     color:white;
     left:42.5%;
     top:20%;
-    position: fixed;
+    position:fixed;
 }
 .btn{
   background-color:red;
-  border: none;
-  color: white;
-  padding: 30px;
-  position: fixed;
+  border:none;
+  color:white;
+  padding:30px;
+  position:fixed;
   border-radius:50%;
   left:48.5%;
   top:24%;
