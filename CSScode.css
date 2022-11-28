@@ -23,7 +23,7 @@ body{
   padding: 30px;
   position: fixed;
   border-radius:50%;
-  left:48%;
+  left:47%;
   top:24%;
   transition:left 100ms ease-in-out,top 100ms ease-in-out;
 }
