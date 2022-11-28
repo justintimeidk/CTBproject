@@ -1,19 +1,29 @@
 body{
-  background: black;
+  background:linear-gradient(-45deg, #000000, #200808, #300808, #280505);
+	background-size:400% 400%;
+	animation:gradient 10s ease infinite;
+	height:50vh;
+}
+@keyframes gradient{
+	0%{background-position:0% 50%;}
+	50%{background-position:100% 50%;}
+	100%{background-position:0% 50%;}
 }
 .text{
+    -webkit-text-stroke:1px red;
     color:white;
     left:42.5%;
     top:20%;
-    position:fixed;
+    position: fixed;
 }
 .btn{
-  background-color:red;
-  border:none;
-  color:white;
-  padding:30px;
-  position:fixed;
+  background-color:rgb(255, 0, 0);
+  border: none;
+  color: white;
+  padding: 30px;
+  position: fixed;
   border-radius:50%;
-  left:48.5%;
+  left:48%;
   top:24%;
+  transition:left 100ms ease-in-out,top 100ms ease-in-out;
 }
