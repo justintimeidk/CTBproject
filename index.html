@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Website</title>
-        <link href="CSScode.css" rel="stylesheet" type="text/css"/>
-        <script src="JScode.js"></script>
-    </head>
-    <body>
-        <div class="text">TRY TO CLICK THE RED CIRCLE</div>
-        <button onmouseover="move()" class="btn" id="btn"></button>
-    </body>
-</html>
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+  }
+function move(){
+    var elem = document.getElementById("btn");
+    elem.style.left=(Math.random()*(90-0)+0)+"%";
+    elem.style.top=(Math.random()*(90-0)+0)+"%";
+}
